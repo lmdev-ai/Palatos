@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "palatos",
+  "description": "PALATOS - Autonomous Company OS. Install a full AI company into any repo.",
+  "owner": {
+    "name": "lmdev-ai"
+  },
+  "plugins": [
+    {
+      "name": "palatos",
+      "description": "Autonomous Company OS (Free): 15 agents + 11 first-party skills that run a continuous learn -> build -> ship -> measure -> improve loop with gated autonomy. PALATOS Pro adds 18 specialists + 6 skills + industry packs.",
+      "source": ".",
+      "category": "development",
+      "keywords": ["autonomous-agents", "multi-agent", "orchestrator", "company-os"]
+    }
+  ]
+}
