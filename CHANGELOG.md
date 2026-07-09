@@ -2,6 +2,19 @@
 
 All notable changes to PALATOS are documented here. Format: [Keep a Changelog](https://keepachangelog.com/); versioning: [SemVer](https://semver.org/).
 
+## [0.2.0] - 2026-07-09
+
+lean-comms is now the full user-facing terse hub, at parity with PALATOS Pro.
+
+### Added
+- **Always-on persistent terse mode** in `lean-comms` (level `full` by default, like caveman; opt out with "normal mode" and it persists across sessions **and projects**). New hooks `terse-mode` (SessionStart) + `terse-persist` (UserPromptSubmit), a shared `lean-comms-config.js` resolver (env `PALATOS_TERSE_MODE` > global state file > default), symlink-safe state read/write, and per-turn reinforcement.
+- **Statusline badge** (`statusline/palatos-statusline.js`) showing the live terse level (`⚡ terse:full` / `terse off`) plus plugin state; works for the Free or Pro plugin key.
+- **`lean-comms` intensity levels** (lite/full/ultra + ultra+ with a checked fidelity gate), `terse-commit`, and memory-file `compress` modes, plus `docs/LEAN-COMMS-VS-CAVEMAN.md`.
+- `hooks/scripts/package.json` (`{"type":"commonjs"}`) so the `require()`-based hooks survive an ESM-ancestor `package.json`.
+
+### Notes
+- lean-comms is kept identical to Pro (Pro is canonical; synced via `scripts/sync-lean-comms.ps1` in the Pro repo).
+
 ## [0.1.0] - 2026-07-05
 
 Initial release - PALATOS Free, the Autonomous Company OS.

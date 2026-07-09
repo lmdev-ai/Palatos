@@ -1,6 +1,6 @@
 {
   "name": "palatos",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "PALATOS - Autonomous Company OS (Free). An AI company (15 agents, 11 skills) that plans, builds, ships, measures and improves a software product in any industry with gated autonomy. PALATOS Pro adds 18 more specialists + 6 skills.",
   "author": {
     "name": "lmdev-ai"

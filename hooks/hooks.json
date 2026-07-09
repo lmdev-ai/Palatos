@@ -1,4 +1,28 @@
 {
+  "SessionStart": [
+    {
+      "matcher": ".*",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/terse-mode.js\"",
+          "timeout": 15
+        }
+      ]
+    }
+  ],
+  "UserPromptSubmit": [
+    {
+      "matcher": ".*",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/terse-persist.js\"",
+          "timeout": 15
+        }
+      ]
+    }
+  ],
   "PreToolUse": [
     {
       "matcher": "Bash",
