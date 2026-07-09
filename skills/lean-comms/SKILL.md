@@ -1,6 +1,6 @@
 ---
 name: lean-comms
-description: Token-frugal communication for PALATOS - the hub for dense internal agent-to-agent handoffs AND an opt-in user-facing terse mode (lite/full/ultra), plus terse-commit and memory-file compress modes. Preserves 100% of technical substance; keeps safety-critical and user-facing prose readable unless terse is chosen. Use to compress internal traffic, to run a brief user-facing style, to write terse commits, or to compress memory files. Aliases: "be brief", "terse mode", "lean mode", "less tokens", "terse commit", "compress this file".
+description: Token-frugal communication for PALATOS - the hub for dense internal agent-to-agent handoffs AND an always-on, persistent user-facing terse mode (lite/full/ultra), plus terse-commit and memory-file compress modes. Preserves 100% of technical substance; keeps safety-critical and user-facing prose readable unless terse is chosen. Use to compress internal traffic, to run a brief user-facing style, to write terse commits, or to compress memory files. Aliases: "be brief", "terse mode", "lean mode", "less tokens", "terse commit", "compress this file".
 ---
 
 # lean-comms - dense, exact, zero filler
